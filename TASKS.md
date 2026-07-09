@@ -2,6 +2,19 @@
 
 Revised plan v2 after critical review. This sequence is intentionally implementation-neutral and should be used as the build order once coding begins.
 
+## Milestone 1: Live Vertical Slice
+
+- Status: completed
+- Scope delivered: canonical data model, live Greenhouse and SmartRecruiters ingestion, SQLite storage, deduplication, conservative eligibility classification, and email outbox generation.
+- Verification: unit tests passed and the live pipeline ran successfully against 28 real company seeds.
+- Notes: the first slice intentionally used a modest company set to prove the architecture before expanding source coverage.
+
+## Milestone 2: Broader Connector Coverage
+
+- Status: not started
+- Goal: add more ATS families or richer parsing paths where public, permitted sources are available.
+- Focus: improve recall while keeping source capability metadata explicit.
+
 ## Phase 0: Foundations
 
 1. Define the canonical data model for companies, sources, jobs, snapshots, eligibility decisions, compensation evidence, state events, and applications.
