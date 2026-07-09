@@ -49,4 +49,14 @@ SMARTRECRUITERS_SEEDS = [
     CompanySeed("LVMH", "smartrecruiters", "lvmh", "https://api.smartrecruiters.com/v1/companies/lvmh/postings?limit=100"),
 ]
 
-ALL_COMPANY_SEEDS = GREENHOUSE_SEEDS + SMARTRECRUITERS_SEEDS
+ASHBY_SEEDS = [
+    CompanySeed("Ramp", "ashby", "ramp", "https://jobs.ashbyhq.com/ramp"),
+    CompanySeed("Notion", "ashby", "notion", "https://jobs.ashbyhq.com/notion"),
+    CompanySeed("Linear", "ashby", "linear", "https://jobs.ashbyhq.com/linear"),
+    CompanySeed("Warp", "ashby", "warp", "https://jobs.ashbyhq.com/warp"),
+    CompanySeed("Modal", "ashby", "modal", "https://jobs.ashbyhq.com/modal"),
+    CompanySeed("Stytch", "ashby", "stytch", "https://jobs.ashbyhq.com/stytch"),
+    CompanySeed("Hightouch", "ashby", "hightouch", "https://jobs.ashbyhq.com/hightouch"),
+]
+
+ALL_COMPANY_SEEDS = GREENHOUSE_SEEDS + SMARTRECRUITERS_SEEDS + ASHBY_SEEDS

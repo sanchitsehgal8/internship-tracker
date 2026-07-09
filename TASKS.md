@@ -11,9 +11,10 @@ Revised plan v2 after critical review. This sequence is intentionally implementa
 
 ## Milestone 2: Broader Connector Coverage
 
-- Status: not started
-- Goal: add more ATS families or richer parsing paths where public, permitted sources are available.
-- Focus: improve recall while keeping source capability metadata explicit.
+- Status: completed
+- Scope delivered: added Ashby connector support, expanded the live company universe across Greenhouse, SmartRecruiters, and Ashby, and validated the upgraded pipeline against real sources.
+- Verification: unit tests passed and a live run completed successfully after the schema upgrade, yielding fresh jobs, active-state tracking, compensation evidence, and alerts.
+- Notes: the Ashby connector uses embedded public app data from the board page and stays within the source's public surface area.
 
 ## Phase 0: Foundations
 
